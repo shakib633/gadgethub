@@ -30,7 +30,7 @@ searchBtn.addEventListener("click", () => {
 
     };
     
-    
+     document.get'
     loadPhones();
 
     // Display phones.........
