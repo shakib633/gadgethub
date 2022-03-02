@@ -26,7 +26,8 @@ searchBtn.addEventListener("click", () => {
          fetch(url)
         .then((res) => res.json())
         .then((data) => displayPhone(data.data.slice(0,20)))
-        .catch((error) => displayError(error));
+        .catch((error) => displayError(error))
+
     };
     
     
