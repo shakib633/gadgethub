@@ -41,8 +41,9 @@ searchBtn.addEventListener("click", () => {
       const resultCount = document.getElementById("result-count");
       if (resultFromData.length > 1) {
         resultCount.innerHTML = `${resultFromData.length} results found for "<strong>${searchText.value}</strong>" 😃`;
-      } else if (resultFromData.length <1 ){
-        resultCount.innerHTML = `No result found For "<strong>${searchText.value}</strong>"`;
+      } 
+      else if (resultFromData.length <1 ){
+        resultCount.innerHTML = `No result Found For "<strong>${searchText.value}</strong>"`;
       }
  searchText.value = "";
     resultContainer.textContent = "";
